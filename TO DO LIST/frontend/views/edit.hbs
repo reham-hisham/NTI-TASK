@@ -1,0 +1,16 @@
+{{>header}}
+{{>navbar}}
+
+</div>
+    <form method="post">
+        <div class="mb-3">
+            <input class="form-control" placeholder="title" name="title" value="{{task.title}}">
+        </div>
+        <div class="mb-3">
+            <input class="form-control" placeholder="contant" name="contant" value="{{task.contant}}">
+        </div>
+        <div class="mb-3">
+            <button class="btn btn-primary">Edit</button>
+        </div>
+    </form>
+{{>footer}}

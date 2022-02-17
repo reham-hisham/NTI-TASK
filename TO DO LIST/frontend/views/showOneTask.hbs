@@ -1,0 +1,17 @@
+{{>header}}
+{{>navbar}}
+{{#if item}}
+<div class="card" style="width: 18rem;">
+ 
+  <div class="card-body">
+    <h5 class="card-title">{{item.title}} <hr> </h5>
+    <p class="card-text" > Contant :<br> {{item.contant}} </p>
+    <a href="/edit/{{item.title}}" class="btn btn-primary ">  Edit</a>
+  </div>
+</div>
+{{else}}
+        user not found
+    {{/if}}
+{{>footer}} 
+      
+    
